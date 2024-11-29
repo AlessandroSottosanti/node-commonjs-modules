@@ -1,6 +1,9 @@
+
+// Richiami delle funzioni
 const getFullName = require("./names.js");
 const getHobbies = require("./hobbies.js");
 
+// Dati
 let firstName = "Gino";
 let lastName = "Pino";
 
@@ -8,16 +11,22 @@ let hobbyOne = "Calcio";
 let hobbyTwo = "Musica";
 let hobbyThree = "Ginnastica";
 
-const result = getFullName.fullName(firstName, lastName);
-const result2 = getHobbies.hobbies(hobbyOne, hobbyTwo, hobbyThree);
+
+// Esecuzione
+const name = getFullName.fullName(firstName, lastName);
+const hobbiesList = getHobbies.hobbies(hobbyOne, hobbyTwo, hobbyThree);
 
 
 const combine = () => {
     let person = {
-        fullName: result,
-        hobbies: result2.hobbies
+        fullName: name,
+        hobbies: hobbiesList.hobbies
     }
-    console.log(person);
+    return person;
 }
 
-combine();
+const personInfo =  combine();
+
+
+// Output
+console.log(personInfo);
