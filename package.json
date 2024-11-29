@@ -1,0 +1,25 @@
+{
+  "name": "commonjs-modules",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlessandroSottosanti/node-commonjs-modules.git"
+  },
+  "keywords": [
+    "modules",
+    "functions",
+    "exercise"
+  ],
+  "author": "Alessandro Sottosanti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlessandroSottosanti/node-commonjs-modules/issues"
+  },
+  "homepage": "https://github.com/AlessandroSottosanti/node-commonjs-modules#readme",
+  "description": ""
+}
