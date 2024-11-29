@@ -8,12 +8,12 @@ import chalk from 'chalk';
 
 
 // Dati
-let firstName = "Gino";
-let lastName = "Pino";
+let firstName = "Franco";
+let lastName = "Ponte";
 
-let hobbyOne = "Calcio";
-let hobbyTwo = "Musica";
-let hobbyThree = "Ginnastica";
+let hobbyOne = "Ippica";
+let hobbyTwo = "Equitazione";
+let hobbyThree = "Tennis";
 
 
 // Esecuzione
