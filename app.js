@@ -1,7 +1,7 @@
 
 // Richiami delle funzioni
-const getFullName = require("./names.js");
-const getHobbies = require("./hobbies.js");
+const getFullName = require("./modules/names.js");
+const getHobbies = require("./modules/hobbies.js");
 
 // Dati
 let firstName = "Gino";
