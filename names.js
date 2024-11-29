@@ -1,4 +1,8 @@
-const names = (firstName, lastName) => {
-    let result = firstName + lastName;
+const name = (firstName, lastName) => {
+    let result = firstName + ' ' + lastName;
     return result
+}
+
+module.exports = {
+    fullName: name
 }
